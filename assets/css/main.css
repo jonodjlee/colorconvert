@@ -8,7 +8,9 @@ html,
 body {
     margin: 0;
     padding: 0;
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 @charset "UTF-8";
@@ -3492,6 +3494,10 @@ a {
     text-align: center;
     padding: 60px 15px;
     max-width: 400px;
+    margin: 0 auto;
+}
+
+#wrapper {
     margin: auto;
 }
 
