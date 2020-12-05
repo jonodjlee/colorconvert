@@ -3525,10 +3525,10 @@ h1,
     font-size: 28px;
     position: absolute;
     top: 15px;
-    right: 20px;
+    left: 0px;
     width: 150px;
-    transform: rotateZ(35deg) translate(25%, 50%);
-    -webkit-transform: rotateZ(35deg) translate(25%, 50%);
+    transform: rotateZ(325deg) translate(25%, 50%);
+    -webkit-transform: rotateZ(325deg) translate(25%, 50%);
 }
 
 @media (max-width: 768px) {
