@@ -45,7 +45,8 @@
                 $(this).off("keyup", n)
             }), $(".copy").on("click", function (t) {
                 var n = $(t.target).siblings("input").attr("id");
-                r.copyField(n)
+                r.copyField(n);
+                $(this).html("copied");
             });
             var n = function () {
                 o.changeColor(this)
