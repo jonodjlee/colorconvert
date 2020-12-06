@@ -3567,6 +3567,7 @@ h1,
     display: block;
     font-size: 12px;
     text-align: left;
+    cursor: pointer;
 }
 
 .field .color-field {
