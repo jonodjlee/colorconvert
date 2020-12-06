@@ -3582,7 +3582,7 @@ h1,
 }
 
 .field .color-field#hex {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .copy:hover {
