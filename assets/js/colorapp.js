@@ -66,7 +66,7 @@
                 n = "#" + this.RGBtoHEX(t[0], t[1], t[2]);
             if (this.RGBlightness(t[0], t[1], t[2]) < 180) var a = this.blendColors(n, "#FFFFFF", .75);
             else a = this.blendColors(n, "#000000", .5);
-            $("body").css("backgroundColor", "rgb(" + t + ")"), $(".color-field, body, a").css("color", a), $(".color-field").css("borderColor", a), $(".rw-monogram").css("fill", a), r && (location.hash = "/hex/" + String(n).replace(/[^0-9a-f]/gi, ""))
+            $("body").css("backgroundColor", "rgb(" + t + ")"), $(".color-field, body, a").css("color", a), $(".color-field, .field").css("borderColor", a), $(".rw-monogram").css("fill", a), r && (location.hash = "/hex/" + String(n).replace(/[^0-9a-f]/gi, ""))
         }, this.changeColor = function (r) {
             var t = this,
                 n = "",
