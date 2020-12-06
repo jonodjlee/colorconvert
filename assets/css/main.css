@@ -3585,6 +3585,10 @@ h1,
     text-transform: uppercase;
 }
 
+.copy:hover {
+    font-weight: bold;
+}
+
 /*.field .copy {
     display: block;
     position: absolute;
