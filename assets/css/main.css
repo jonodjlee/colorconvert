@@ -3645,19 +3645,20 @@ h1,
 
 #footer {
     font-size: 10px;
+    font-family: 'Barlow Semi Condensed', 'Fredoka One', sans-serif;
 }
 
 @media (min-width: 768px) {
     #footer {
-        position: fixed;
+        position: absolute;
         bottom: 0;
         right: 0;
     }
+    
 }
 
 #footer a.rw {
     float: right;
-    display: block;
     padding: 15px;
 }
 
